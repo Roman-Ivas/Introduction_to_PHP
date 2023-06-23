@@ -26,7 +26,7 @@ $cols = $rows = 10;
         }
     </style>
 </head>
-<body>
+    <body>
     <table>
         <?php for ($i = 1; $i <= $rows; $i++) : ?>
             <tr>
@@ -40,5 +40,5 @@ $cols = $rows = 10;
             </tr>
         <?php endfor; ?>
     </table>
-</body>
+    </body>
 </html>

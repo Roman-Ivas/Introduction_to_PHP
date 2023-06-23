@@ -32,6 +32,7 @@ $arr1[]="PHP";
 
 $i=0;
 $str="";
+
 while($i<count($arr1)){
 $str.="$arr1[$i] ";
 $i++;

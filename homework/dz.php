@@ -10,7 +10,7 @@
     }
   </style>
 </head>
-<body>
+  <body>
 <?php
 $colors = array('red', 'green', 'blue', 'yellow', 'orange', 'purple'); // Массив с названиями цветов
 
@@ -29,5 +29,5 @@ foreach ($selectedColors as $color) {
   echo '<div class="color-box" style="background-color: ' . $color . '"></div>';
 }
 ?>
-</body>
+  </body>
 </html>

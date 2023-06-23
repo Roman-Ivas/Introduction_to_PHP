@@ -18,11 +18,13 @@ $cars=array('bmw' => array(
 $carCount = 1;
 
 foreach ($cars as $carBrand => $carDetails) {
+    
     echo "<div>";
     echo "<h3>Car #" . $carCount . ":</h3>";
     echo "<span>model - " . $carDetails['model'] . ", price - " . $carDetails['price'] . ", year - " . $carDetails['year'] . " ;</span>";
     echo "</div>";
     $carCount++;
+    
 }
 
 

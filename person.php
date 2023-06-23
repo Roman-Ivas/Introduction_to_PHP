@@ -4,3 +4,4 @@ $person["Ivashchenko1"]=array("name"=>"Roman","surname"=>"Ivashchenko","position
 
 foreach($person as $elem)
 echo "<div>Name: ".$elem["name"]." ".$elem["surname"].", Position:  ".$elem["position"]."</div>";
+?>
